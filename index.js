@@ -112,10 +112,10 @@ Object.setPrototypeOf(Baby.prototype, Person.prototype); //Methods on prototype
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global binding binds objects to your entire page
+  2. Implicit binding is when you're using dot notation, "this" is the item to the left of the dot
+  3. New binding is when a constructor is used, and "this" refers to the object instance being created
+  4. Explicit binding is when built-in methods are used to initiate an instance of an object, where "this" is explicitly defined
 */
 
 
